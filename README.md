@@ -1,42 +1,83 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 28
 
-### Author: Student/Group Name
+### Author: Jen Carrigan
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [Assignment1] https://codesandbox.io/s/xo1nkkpy0o
+* [Assignment2] https://codesandbox.io/s/614owyvk3
+* [Assignment3] https://codesandbox.io/s/vyxk490oj5
 
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+### Assignment 1
+#### `index.js`
+##### class App
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `render`
+Renders div and Message class
+
+##### class Message
+
+###### `constructor`
+State of text
+
+###### `render`
+Returns the text from the constructor
 
 ###### `bar(array) -> array`
 Usage Notes or examples
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+### Assignment 2
+#### `index.js`
+##### class App
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+###### `render`
+Renders Form class
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+##### class Form
+
+###### `constructor`
+State of name and count
+
+###### `handleChange`
+Sets state of name at every key entry
+
+###### `handleSubmit`
+Sets state of count at every button click
+
+###### `render`
+Renders form with input fields, submit button
+
+### Assignment 3
+#### `index.js`
+##### class App
+
+###### `constructor`
+State of name and count
+
+###### `handleForm`
+sets state of name and count
+
+###### `render`
+Renders result fields for name, count, and Form
+
+#### `form.js`
+##### class Form
+
+###### `constructor`
+State of letters
+
+###### `handleChange`
+Sets the state of letters
+
+###### `handleSubmit`
+Sends letters to state to App
+
+###### `render`
+Allows form input. On change calls handleChange, on submit calls handleSubmit
 
 #### UML
-Link to an image of the UML for your application and response to events
+[Assignment1] https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/Assignment1.jpg
+[Assignment2] https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/Assignment2.jpg
+[Assignment3] https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/Assignment3.jpg
